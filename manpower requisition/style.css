@@ -1,0 +1,97 @@
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.container h1{
+   
+    /* font-weight: 300; */
+    /* font-size: 1.5rem; */
+    margin-bottom: 1rem;
+    text-align: center;
+    /* color: #fff; */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h3{
+  
+    /* font-weight: 300; */
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    /* color: #fff; */
+    /* text-transform: uppercase; */
+    letter-spacing: 1px;
+}
+
+.signatory{
+    width: 200px;
+    padding-top: 3rem;
+    border: 1px solid gray;
+    margin-left: 3.5rem;
+    display: inline-block;
+  /* width: 100px; */
+  /* height: 50px; */
+  padding-left: 5px;
+  /* border: 1px solid blue;     */
+  /* background-color: yellow;  */
+}
+
+p{
+    text-align: center;
+}
+
+.dept, .cmp, .location{
+    margin-left:3.5em;
+}
+.deptt{
+    margin-left: 5.5em;
+}
+
+
+input{
+    margin-left: 1em;
+    border: 2px solid #e9e9e9;
+    padding: 10px;
+    width: 200px;
+     height: 15px; 
+   border-radius: 5px;
+    border-bottom-width: 4px;
+    font-size: 18px;
+    font-family: "Courier New", Courier, monospace;
+    transition: all 0.2s ease;
+    outline: none;
+   } 
+
+   .number{
+    margin-left: 1em;
+    border: 2px solid #e9e9e9;
+    padding: 10px;
+    width: 100px;
+     height: 15px; 
+   border-radius: 5px;
+    border-bottom-width: 4px;
+    font-size: 18px;
+    font-family: "Courier New", Courier, monospace;
+    transition: all 0.2s ease;
+    outline: none;
+   } 
+
+   select {
+    /* margin-left: 1em; */
+    border: 2px solid #e9e9e9;
+    padding: 5px;
+    width: 100px;
+     /* height: 10px;  */
+   border-radius: 5px;
+    border-bottom-width: 4px;
+    font-size: 15px;
+    font-family: "Courier New", Courier, monospace;
+    transition: all 0.2s ease;
+    outline: none;
+   } 
+
+  .type, .category, .gender{
+    margin-left: 7em;
+  }

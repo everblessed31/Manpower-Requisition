@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manpower Requisition</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container my-5">
+        <h1>Manpower Requisition</h1>
+        <form action="">
+
+
+           <label for="requestor" class="req" > Requested by
+                <input type="text"  name="requestor" id="" required >
+            </label>
+     
+            <label for="department" class="dept"> Department
+                <input type="text" name="dept" id="" required>
+            </label>
+           <label for="company" class="cmp" > Company
+                <input type="text" name="company" id="" required>
+            </label> 
+
+            <h3>Details of Manpower Request</h3>
+            <label for="job"> Job Title
+                <input type="text" name="job" id="" required>
+            </label>
+
+            <label for="department2" class="deptt" > Department
+                <input type="text" name="dept" id="" required>
+            </label>
+
+            <label for="location" class="location" > Location
+                <input type="text" name="location" id="" required>
+            </label> <br> <br>
+
+            <label for="number"> Number Required
+                <input type="number" name="number" id="number" required class="number">
+            </label>
+
+            <!-- <label for="manager"> Manager
+                <input type="text" name="manager" id="" required>
+            </label>
+
+            <label for="department"> Department
+                <input type="text" name="dept" id="" required>
+            </label> -->
+          
+            <label for="type" class="type">Type:</label>
+            <select name="type" >
+                <option value="select">Select One</option>
+                <option value="permanent">Permanent</option>
+              <option value="contract">Contract</option>
+            </select>
+
+            <label for="type"class="category" >Category:</label>
+            <select name="type" id="type">
+            <option value="select">Select One</option>
+            <option value="staff">Staff</option>
+              <option value="supervisor">Supervisor</option>
+              <option value="manager">Manager</option>
+              <option value="senior">Senior Manager</option>
+            </select>
+
+            <label for="type"  class="gender" >Gender:</label>
+            <select name="type" id="type">
+            <option value="select">Select One</option>
+            <option value="gender">Male</option>
+              <option value="female">Female</option>
+              <option value="neutral">Neutral</option>
+            </select> <br> <br>
+
+             <label for="number" class="num"> Age Range:
+                <input type="text" name="age" id="">
+            </label>
+
+             <label for="type">Ethnicity:</label>
+            <select name="type" id="type">
+            <option value="select">Select</option>
+            <option value="local">Local</option>
+              <option value="foreign">Foreign</option>
+            </select>
+
+            <label for="type">Reason for Hiring:</label>
+            <select name="type" id="type">
+            <option value="select">Select</option>
+            <option value="local">Replacement</option>
+              <option value="foreign">New(Workload)</option>
+              <option value="local">New(Expansion</option>
+              <option value="foreign">New(Project)</option>
+              <option value="foreign">Other</option>
+            </select>
+
+            <label for="number"> Reason if Other:
+                <input type="text" name="reason" id="">
+            </label> <br> <br>
+
+            
+            <label for="number"> Education Required:
+                <input type="text" name="reason" id="">
+            </label>
+
+            <label for="number"> Experience Required:
+                <input type="text" name="reason" id="">
+            </label>
+
+            <!-- <label for="number"> Special Consideration:
+                <input type="text" name="reason" id="">
+            </label> -->
+            <h3>Role KRAs/Key Deliverables of the Job</h3>
+
+            <textarea rows="10" cols="150" name="comment" form="usrform">Enter text here...</textarea>
+
+          
+
+            
+            <p class="signatory">Requisitioning Manager</p>
+
+
+            <p class="signatory">HOD </p>
+
+            <p class="signatory">BU HR Manager</p> <br>
+
+            <p class="signatory">BU Head</p>
+
+            <p class="signatory">HR HOD</p>
+
+            <p class="signatory">Director/Country Mgr</p>
+
+
+            <p> <strong><i>Please sign with date in the boxes above. </i></strong> 
+            
+        </form>
+        </div>
+</body>
+</html>
